@@ -98,3 +98,54 @@ p {
     border-radius: 8px;
     padding: 30px;
 }
+/*-------------------- our-services style --------------------*/
+.our-services {
+    margin-top: 130px;
+}
+.services-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 124px;
+    padding-top: 100px;
+}
+.another-box {
+    text-align: center;
+    padding: 45px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    
+}
+.another-box:hover {
+    transform: rotate(30deg);
+}
+
+/*------------------------- our sponspors style  -----------------------*/
+.our-sponspors {
+    padding: 150px 0;
+}
+.section-top {
+    text-align: center;
+}
+.sponspors {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 154px;
+    padding-top: 50px;
+}
+/*----------------------------------- portfolio ---------------------------------*/
+.portfolio {
+    box-sizing: border-box;
+    box-shadow: 5px 10px 15px gray;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*---------------------------------- footer --------------------------*/
+.bg-color {
+    background: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    margin: 170px 0;
+    padding: 38px 300px;
+}
