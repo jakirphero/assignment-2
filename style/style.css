@@ -1,0 +1,100 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+/*----------------------- common style -----------------*/
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+p {
+    color: #727272;
+    font-size: 16px;
+
+}
+/*------------------------- header style -----------------------*/
+.header-area {
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.logo h1 {
+    font-size: 45px;
+}
+.main-menu {}
+.main-menu ul {
+    padding: 0;
+}
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.main-menu ul li a {
+    color: #424242;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 10px;
+    display: block;
+}
+.header-title {
+    padding: 0 230px 0 230px;
+    text-align: center;
+}
+.title {
+    font-size: 64px;
+}
+.button {
+    background: #FF900E;
+    color: #ffffff;
+    padding: 15px 20px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+}
+.header-bnner img {
+    width: 100%;
+    padding: 45px 0;
+}
+/*---------------------- features style -------------------------*/
+.our-features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 85px;
+    grid-column-gap: 41px;
+}
+.img-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.img-gallery img {
+    width: 342px;
+}
+.gallery-description {
+    margin-top: 192px;
+}
+/*------------------------------ our-exprience -------------------------------*/
+.our-exprience {
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 52px;
+}
+.right img {
+    width: 100%;
+}
+.box {
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
