@@ -15,6 +15,9 @@ p {
     font-size: 16px;
 
 }
+.border-class:hover {
+    border: 2px solid blueviolet;
+}
 /*------------------------- header style -----------------------*/
 .header-area {
     background: rgba(255, 144, 14, 0.1);
@@ -42,6 +45,9 @@ p {
     padding: 0 10px;
     display: block;
 }
+.main-menu ul li:hover a {
+    text-decoration: underline;
+}
 .header-title {
     padding: 0 230px 0 230px;
     text-align: center;
@@ -53,7 +59,7 @@ p {
     background: #FF900E;
     color: #ffffff;
     padding: 15px 20px;
-    margin-top: 30px;
+    margin-bottom: 30px;
     text-transform: capitalize;
     border-radius: 8px;
     border: none;
@@ -61,7 +67,6 @@ p {
 }
 .header-bnner img {
     width: 100%;
-    padding: 45px 0;
 }
 /*---------------------- features style -------------------------*/
 .our-features {
@@ -149,3 +154,46 @@ p {
     margin: 170px 0;
     padding: 38px 300px;
 }
+
+
+
+
+
+
+/*---------------------------------- media quary ----------------------------*/
+/*--------------------------------- 
+mobile device
+ ----------------------------*/
+
+ @media all and (max-width: 668px){
+    .container {
+        width: 100%;
+    }
+    .header-top {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .header-title {
+        padding: 0;
+    }
+    .main-menu ul li {
+        width: 100%;
+        background: #ffffff;
+    }
+    .our-features, .img-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .img-gallery {
+        align-items: center;
+    }
+    .img-gallery img {
+        width: 100%;
+    }
+    .our-exprience {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .sponspors, .services-box {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 124px;
+    }
+ }
