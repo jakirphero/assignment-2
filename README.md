@@ -5,15 +5,13 @@ blog-1
 
     postgreSQL is database management system.
 
-    এটা দিয়ে database server মাধ্যমে ডাটা আনে হয়, এটাকে আমারা ডাটা সার্বার ও বলতে পারি,
-    একজন ব্যাবহারকারী যখন কোন ডাটা পেতে চায় ডাটাবেজ থেকে তখন postgreSQL user কে ডাটা
+    এটা দিয়ে database server মাধ্যমে ডাটা আনে হয়, এটাকে আমারা ডাটা সার্বার ও বলতে পারি, একজন ব্যাবহারকারী যখন কোন ডাটা পেতে চায় ডাটাবেজ থেকে তখন postgreSQL user কে ডাটা
     পেতে সাহায্য করে। এখানে query করে ডাটা আনা হয় তার জন্য ভিবিন্ন query language ব্যাবহার করা হয়, যার একটি হলো (SQL) যা হলো একটি standard query language 
 
 blog-2
     Primary key, Foreign key:-
 
-    Primary key: postgreSQL আসলে RDBMS আকারে কাজ করে যেখানে ডাটাগুলো table মধ্যে রাখা হয়,
-    প্রতিটি টেবিলে column এবং ROW আকারে সাজানো থাকে, table কে uniq করার জন্য কিছু key use করা হয়, এগুলোর মধ্যে primary key ব্যাবহার করা হয় যা ওই টেবিলকে আলাদা করতে সাহায্য করে, table মধ্যে (user_id) এটি একটি primary key কারন এটি একবার serial আকারে তৈরি হয়, আর এটা হলো primary key
+    Primary key: postgreSQL আসলে RDBMS আকারে কাজ করে যেখানে ডাটাগুলো table মধ্যে রাখা হয়, প্রতিটি টেবিলে column এবং ROW আকারে সাজানো থাকে, table কে uniq করার জন্য কিছু key use করা হয়, এগুলোর মধ্যে primary key ব্যাবহার করা হয় যা ওই টেবিলকে আলাদা করতে সাহায্য করে, table মধ্যে (user_id) এটি একটি primary key কারন এটি একবার serial আকারে তৈরি হয়, আর এটা হলো primary key
 
     Foreign key: এটি খুব প্রয়োজনীয়, যখন একটি table সাথে আরেকটি table সংযোগ করা হয় তখন Foreign key ব্যাবহার করা হয়, এখানে একটি table মধ্যে primary key অন্য table মধ্যে foreign key হয়ে সম্পর্ক তৈরি কর।
 

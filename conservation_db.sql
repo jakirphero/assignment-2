@@ -138,5 +138,9 @@ AND conservation_status = 'Endangered';
 
 ----------------------- problem-9
 -- Delete rangers who have never sighted any species
-SELECT * FROM sightings;
+DELETE FROM rangers WHERE NOT EXISTS(
+    SELECT sightings FROM sightings WHERE sightings.ranger_id = rangers.ranger_id
+);
+SELECT * FROM rangers;
+
 
